@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normaliza.css">
+    <link rel="stylesheet" href="css/stylo.css">
+    
+    <title>blog </title>
+</head>
+<body>
+    <header class="site-header   ">
+        
+        <div class="contenedor contenido-header ">
+            <div class="barra " > 
+                <a href="/index.html">
+                <img src="img/BIENESraizes.png" alt="" class="logo"></a>
+
+                <nav class="navegacion">
+                    <a href="Nosotro.html">Nosotros</a>
+                    <a href="Anuncio.html">Anuncio</a>
+                    <a href="Blog.html">Blog</a>
+                    <a href="Contacto.html">Contacto</a>
+            
+                </nav>
+            </div>
+            
+        </div>
+        
+    </header>
+     <h1 class="fw-300 alinear-texto contacto-contacto ">Contacto</h1>
+     <img src="img/contacto.jpg" alt="">
+     <main class="contenedor seccion contenido-centrado">
+
+        <h2 class="fw-300 alinear-texto"> Llena el formulario de contacto</h2>
+         <fieldset >
+            <LEgend>Informacion Personal</LEgend>
+        <form action="" class="detalles-texto-form">
+            <label for="nombre"> Nombre:</label>
+            <input type="text" id="nombre" placeholder="Tu numbre">
+            <label for="email"> Email</label>
+            <input type="email" id="email" placeholder="Tu Email" required>
+            <label for="telefono">telefono</label>
+            <input type="tel" id="telefono" placeholder="Tu telefono" required>
+            <label for="mensaje">Mensaje</label>
+            <textarea  id="mensaje" cols="70" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <LEgend> Informacion sobre propiedad </LEgend>
+            <label for="opcion"></label>
+            <select  id="opcion">
+                <option value="" disabled selected>--Seleccionar--</option>
+                <option value="Vender">Vender</option>
+                <option value="Comprar">Comprar</option>
+            </select>
+            
+            <label for="cantidad">Cantidad</label>
+            <input type="number" id="cantidad">
+
+        </fieldset>
+        <fieldset class="detalle">
+            
+                <LEgend>Contacto</LEgend>
+                <p>Como desea ser contactado </p>
+            <div class="contacto-tel">
+                <label for="telefono">Telefono</label>
+                <input type="radio"name="contacto"value="telefono" id="telefono">
+                <label for="email">Email</label>
+                <input type="radio"name="contacto"value="contacto" id="email">
+            </div>
+
+            <p> Si eligio telefono elija la fecha y hora</p>
+            <label for="fecha">Fecha</label>
+            <input type="date"id="fecha">
+            <label for="hora">Hora</label>
+            <input type="time"id="hora">
+
+        </fieldset>
+
+            
+            <input type="submit" value="Enviar"  class="boton boton-verde sumit">
+
+        </form>
+     </main>
+
+
+    
+     
+   
+           
+    <footer class="site-footer ">
+        <nav class="contenedor footer-contenedor">
+            <a href="Nosotro.html">Nosotros </a>
+            <a href="Anuncio.html">Anuncio</a>
+            <a href="Blog.html">Blog</a>
+            <a href="Contacto.html">Contacto</a>
+        </nav>
+
+        <p class="copy">Todos los derechos reservados &copy;;</p>
+    </footer>
+
+
+        
+</body>
+</html>

@@ -1,0 +1,178 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+
+body{
+
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,727272+27,050205+52,7a7a7a+76,7a7a7a+76,010102+95 */
+background: rgb(0,0,0); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(114,114,114,1) 27%, rgba(5,2,5,1) 52%, rgba(122,122,122,1) 76%, rgba(122,122,122,1) 76%, rgba(1,1,2,1) 95%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(114,114,114,1) 27%,rgba(5,2,5,1) 52%,rgba(122,122,122,1) 76%,rgba(122,122,122,1) 76%,rgba(1,1,2,1) 95%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(114,114,114,1) 27%,rgba(5,2,5,1) 52%,rgba(122,122,122,1) 76%,rgba(122,122,122,1) 76%,rgba(1,1,2,1) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#010102',GradientType=0 ); /* IE6-9 */
+
+overflow: visible;
+}
+header{
+
+text-align: center;
+margin-bottom: 20px;
+margin-top: 30px;
+}
+.contenedor{
+
+max-width: 1200px;
+margin: 0 auto;
+overflow: auto;
+
+
+}
+
+h2{
+
+margin-bottom: 30px;
+text-align: center;
+
+}
+
+img{
+
+max-width: 100%;
+}
+.lista-procucto li{
+
+    list-style: none;
+    float: left;
+    width: 50%;
+   
+    
+}
+
+
+
+
+@media (min-width: 768px){
+    .lista-procucto li{
+    
+    width: 30.3%;
+    text-align: center;
+    }     
+    
+}
+.lista-procucto img{
+width: 200px;
+height: 200px;
+margin-top: 15px;
+
+
+
+
+
+
+}
+
+
+.lista-procucto a{
+    background-color: rgb(255, 255, 0);
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-right: 10px;
+    text-align: center;
+    
+
+}
+.lista-procucto a:hover{
+
+background-color: rgba(238, 234, 17, 0.5);
+}
+.lista-procucto p{
+
+text-align: center;
+font-weight: bold;
+}
+.lista-procucto span{
+
+font-size: 20px;
+color: rgb(105, 204, 66);
+}
+@media (min-width: 768px){
+
+    .lista-procucto a{
+    
+    display:inline-block;
+
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    }
+    
+}
+
+.lista-procucto li img{
+border: 4px solid rgb(255, 255, 255);
+transition: border-color .001s step-end;
+}
+
+.lista-procucto li img:hover{
+    border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.parrafo{
+    background-color: rgba(7, 7, 7, 0.699);
+    text-align: center;
+    padding: 5px 0;
+    display: block;
+    margin-top: 20px;
+    
+   
+    
+
+}
+
+.parrafo h3{
+
+font-size: 20px;
+}
+
+.parrafo p{
+
+text-align: center;
+
+
+
+}
+
+
+@media (min-width: 768px){
+
+    .parrafo{
+        display: inline-block;
+    
+    
+    }
+    .parrafo .nosotros{
+        float: left;
+        width: 50%;
+       
+        
+    
+    }
+
+    .parrafo .copy{
+       float: right;
+       width: 33.3%;
+    
+    
+    }
+    
+}

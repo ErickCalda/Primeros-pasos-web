@@ -1,0 +1,396 @@
+
+	
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+    font-size: 62.5%;/*1 rem = 10px*/
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: rgb(228, 228, 228);
+
+}
+
+
+/*Generales*/
+
+h1,h2,h3,h4{font-family: 'PT Sans', sans-serif;}
+
+h1{
+  font-size: 4.8rem;
+
+}
+
+h2{
+  font-size: 4rem;
+
+}
+
+h3{
+  font-size: 3.2rem;
+
+}
+
+h4{
+  font-size: 2.8rem;
+
+}
+img{
+max-width: 100%;
+}
+
+.contenedor{
+  max-width: 120rem;
+  margin: auto;
+  width: 90%;
+}
+
+
+
+.centrar-texto{
+text-align: center;
+}
+.no-margin{
+margin: 0;
+}
+.recorte-imagen{
+  width: 45rem;
+  height: 40rem;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+a:hover{
+color: blueviolet;
+}
+
+/*--botonos---*/
+
+
+.btn-principal{
+  display: block;
+  text-align: center;
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  color:white;
+  background-color: rgb(43, 31, 16);
+
+}
+
+
+@media (min-width: 480px){
+ .btn-principal{
+  display: inline;
+  
+}
+  
+}
+
+
+
+
+
+
+
+/*header*/
+@media(min-width:720px){
+  .barra{
+  display: flex;
+    justify-content: space-between;
+  align-items: center;
+  }
+    
+}
+
+
+.logo{
+  height: 7rem;
+  text-align: center;
+
+}
+.site-header{
+background-image: url(../img/cafe5.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+height: 45rem;
+background-size: cover;
+
+}
+.site-header a {
+color: white;
+text-decoration: none;
+}
+.navegacion a{
+text-align: center;
+display: block;
+margin-right: 2rem;
+
+}
+
+@media (min-width: 768px){
+  .navegacion a{
+    display: inline;}
+  
+}
+.navegacion a:last-of-type{
+margin-right: 0;
+}
+.text-header{
+ color: white;
+  
+}
+@media (min-width: 768px){
+  .text-header{
+  margin-top: 15rem;
+  }
+  
+}
+ 
+.contenido-blog p{
+
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/*contenido pricipal*/
+
+.contenido-pricipal{
+
+display: flex;
+flex-wrap: wrap;
+}
+.blog .cursos{
+flex-grow: 0;
+flex-shrink: 0;
+flex-basis: 100%;
+
+}
+.cursos{
+order: -1;
+
+}
+@media (min-width: 768px){
+  .contenido-pricipal{
+  
+  justify-content: space-between;}
+
+  .blog{
+    flex-basis: 66.6%;
+    order: -1;
+  }
+
+  .cursos{
+    flex-basis: 33.3%;
+  
+  }
+}
+
+.cursos-listas{
+
+
+padding: 0;
+list-style: none;
+
+}
+.imagen{
+
+  margin-top: 2rem;
+}
+
+.cursos h4{
+margin: 0;
+}
+.cursos p{
+margin: 0;
+}
+
+
+
+.site-footer{
+
+background-color: black;
+height: auto;
+margin-top: 3rem;
+
+}
+.barra{
+color: white;
+padding-top: 2rem;
+}
+.navegacion a{
+ color: white;
+}
+.site-footer p,span{
+  color: rgb(117, 72, 5);
+
+  
+}
+/* parte ineterna de blog nosotros*/
+@media (min-width: 768px){
+
+  .grid{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  }
+  .centrar-columnas{
+  justify-content: center;
+  }
+
+  .columnas-6{
+    flex: 0 0 calc(50% -1rem);
+    margin-right: 1rem;
+    margin-left: 1;
+
+  
+  }
+
+  .columna-4{
+  flex: 0 0 calc(33.3% -1rem);
+  }
+
+  .columna-8{
+    flex:  0 0 calc(66.6% -1rem);
+  
+  }
+
+  .columna-12{
+  
+  flex:  0 0 100%;
+  }
+  .columna-10{
+  flex:  0 0 calc(83.3% - 1rem);
+  }
+
+  .columnas-6 p{
+    margin-left: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      line-height: 2.5rem;
+      padding-top: 2rem;
+      
+    
+    }
+}
+
+@media (min-width: 768px){
+  .imagen{
+ 
+    
+    width: 60rem;
+    height: 50rem;
+    }
+    
+  
+}
+.imagen{
+margin-left: 2rem;
+
+  }
+
+
+  /*footer - nosostros*/
+  .logo-inferior{
+  
+  font-size: 4rem;
+  }
+.parrafo{
+
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+}
+  
+.imagen-curso{
+
+width: 90rem;
+height: 43rem;
+padding-bottom: 2rem;
+margin-top: 1rem;
+}
+@media (min-width: 768px){
+  .imagen-curso{
+
+    width: 50rem;
+    height: 50rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+   
+    }
+    
+
+  
+}
+
+/*contacto*/
+.formulario-conctacto{
+  background-color:  #ffffff;
+  padding: 5rem;
+
+}
+@media (min-width: 768px){
+
+  .formulario-conctacto{
+    margin-top: -10rem;
+
+  }
+  
+}
+
+.formulario-conctacto .campo{
+display: flex;
+justify-content: space-between;
+margin-bottom: 2rem;
+}
+
+.formulario-conctacto .campo label{
+  flex: 0 0 8%;
+  padding-right: 1rem;
+
+}
+.formulario-conctacto .campo input:not([type="submit"]) ,.formulario-conctacto textarea{
+
+flex: 1;
+border: 0.5 px solid;
+padding: 1rem;
+}
+
+.formulario-conctacto .enviar{
+  display: flex;
+justify-content: flex-end;
+}
+@media (min-width: 768px){
+  
+
+.boton-contacto{
+ background-color: black;
+ padding: 1rem;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ color: #ffffff;
+ width: 10rem;
+ border: none;
+ border-radius: 0.5rem;
+
+
+
+}
+}
+.boton-contacto{
+  background-color: black;
+  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #ffffff;
+  width: 10rem;
+  border: none;
+  border-radius: 0.5rem;
+}

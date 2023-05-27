@@ -1,0 +1,574 @@
+/*general*/
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2rem;
+   
+   
+}
+.contenedor{
+    max-width: 110rem;
+    margin: 0 auto;
+}
+
+
+/* header*/
+.logo{
+    width: 200px;
+    
+}
+
+h1{
+    font-size: 3.8rem;
+
+}
+h2{
+    font-size: 3.4rem;
+
+}
+h3{
+    font-size: 2rem;
+    
+
+}
+h4{
+font-size: 2.6rem;
+}
+/* utilidades*/
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.fw-300{
+    font-weight: 400;
+}
+
+.alinear-texto{
+    text-align: center;
+}
+.espacio-texto{
+    padding-bottom: 2rem;
+    height: 2.5rem;
+}
+
+
+.tamaño-imagen{
+    width: 30rem;
+    height: 25rem;
+    justify-content: center;
+}
+
+/* botones */
+.boton{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+   
+    
+
+}
+.boton-amarillo{
+    background-color:  #e67e22 ;
+    display: block;
+
+}
+.boton-verde{
+    background-color: #115a23;
+    
+    
+
+}
+
+
+
+/*--------*/
+
+.site-header{
+    background-color: #161616;
+    height: 13rem;
+}
+.site-header.inicio{
+    background-repeat: no-repeat;
+    background-image: url(../img/contacto.jpg);
+    background-position: center center;
+    min-height: 60rem;
+    align-items: center;
+    
+   
+}
+.contenido-header{
+    height: 60rem;
+    display:flex;
+    flex-direction: column ;
+    justify-content: space-between;
+}
+.contenido-header h1{
+    color: white;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    max-width: 70rem;
+    line-height: 5rem;
+   
+}
+.barra{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 3rem;
+
+}
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+}
+.contenedor a:hover{
+    color:  #b76fd3 ;
+}
+.navegacion a:last-of-type{
+    margin: 0;
+}
+/*tamaño de los iconos */
+
+.tam-ico{
+   width: 16rem; 
+}
+/*iconos nosotros*/
+.iconos-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+.icono{
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+}
+.icono h3{
+    text-transform: uppercase;
+}
+/*anuncios*/
+.contenedor-anuncio{
+    display: flex;
+   justify-content:center ;
+   
+
+   
+}
+.anuncio{
+    
+    background-color:   #dfdddd  ;
+    flex-basis: calc(20.3%-1rem);
+    border-radius: 0.5rem;
+    border-style:solid;
+    border-color:   #dad5d5;
+    border-width: 1px;
+    width: 30rem;
+    height: 50rem;
+    margin:1rem;
+    
+    
+
+}
+.anuncio p{
+    margin:0rem
+    
+}
+.icono-anuncio{
+    width: 3rem;
+    
+}
+/*iconos lista anuncio */
+.lista-icono{
+   
+   padding-left: 0;
+   list-style: none;
+   display: flex;
+   padding: 2rem;
+   margin-bottom: 1rem;
+
+   
+
+}
+.lista-icono p{
+    height: 0;
+    margin: 0;
+   
+
+    
+}
+.caracteristicas-orden-lista{
+    padding: 0;
+    margin:0;
+    margin-right: 3rem;
+    display: flex;
+   
+}
+
+
+
+.contenido-anuncio{
+    padding: 2rem;
+}
+.contenido-anuncio h3{
+    margin: 0;
+}
+
+.parrafo{
+    font-size: 1.5rem;
+    
+}
+
+.precio{
+    color: rgb(8, 143, 4);
+    font-weight: 700;
+    
+    
+}
+.mover-verde{
+    display: flex;
+    margin-top: 2rem;
+    width: 105rem;;
+    justify-content: flex-end;
+    
+    
+}
+
+/*contacto*/
+.contacto-imagen-home{
+    
+    background-image: url(../img/sala-estar1.jpg);
+    background-position: center center;
+    height: 30rem;
+    margin-top: 4rem;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 172,5rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+  
+    
+}
+.conenido-contacto{
+    flex: 0.65;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: white;
+    margin-bottom: 2rem;
+    
+   
+}
+.conenido-contacto p{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+   
+ 
+}
+.conenido-contacto h2{
+    font-size: 3rem;
+   
+}
+
+
+/*.bonton-amarillo-contacto{
+    display: flex;
+    display: block;
+    text-align: right;
+    background-color: #e67e22;
+    width: 17rem;
+    
+   
+}*/
+
+.boton-contacto{
+    color:white;
+    font-weight: 700;
+    background-color: #e67e22;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    padding-bottom: 1.5rem;
+    text-align:end;
+    display:inline-block;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    border-radius: 0.5rem;
+    
+}
+/*seccion inferior*/
+.imagen-blog{
+    width: 35rem;
+} 
+
+.seccion-inferior{
+    display: flex;
+    justify-content: space-between;
+    width: 120rem;
+}
+.seccion-inferior .imagen-blog{
+flex-basis: 60%;
+}
+.seccion-inferior .testimonial{
+    flex-basis: calc(40% -2rem);
+}
+
+.entrada-blog{
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 3rem;
+}
+.entrada-blog .imagen-article{
+   
+    padding-right: 3rem;
+    margin: 0;
+    
+}
+
+.tex-articulo{
+  
+    margin-right: 1rem;
+    line-height: 2.3rem;
+    width: 40rem;
+    
+}
+.entrada-blog:last-of-type{
+    margin-bottom: 0;
+}
+
+.tex-articulo a{
+    text-decoration: none;
+    color: black;
+}
+
+.tex-articulo h3::after{
+    content:'──────────────';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    color: #115a23;
+}
+.tex-articulo span{
+    color: #e67e22;
+}
+.testimoniales-tex{
+    background-color: #70b15b;
+    font-size: 2rem;
+    padding: 2rem;
+    color: black;
+    line-height: 3.4rem;
+    width: 35rem;
+    height: 25rem;
+    text-align: center;
+    font-family:cursive;
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+
+}
+.testimoniales-tex p{
+    text-align: left;
+}
+
+.testimoniales-tex blockquote::before{
+    content:'"';
+    width: 2rem;
+    height: 2rem;
+    display:inline-block;
+    
+ 
+}
+
+.site-footer{
+    background-color: #080808;
+    display:block;
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+.footer-contenedor{
+    
+    padding-top: 0rem;
+    height: 5rem;
+    margin-right: 68rem;
+    margin-left: 28.5rem;
+    padding-top: 2rem;
+
+    
+    
+
+}
+.copy{
+    margin: 0;
+    padding-right: 10rem;
+    color: white;
+    padding-top: 2rem;
+
+}
+.footer-contenedor a{
+    text-decoration: none;
+    color: #dfdddd;
+    font-weight: bold;
+    margin-right: 1rem;
+  
+
+}
+.footer-contenedor a:last-of-type{
+    margin-right: 0;
+}
+
+/*----------------------
+***********************
+***********************
+/* PAGINAS EXTERNAS */  
+/*---------------------
+-------------------------*/
+
+
+
+/*NOSOTROS*/
+
+
+
+.ima-sala{
+    height: 50rem;
+    width: 55rem;
+}
+
+.contenido-nosotros{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2rem;
+    margin-top: 5rem;
+}
+.texto-nosostros blockquote{
+    font-weight: 900;
+    margin: 0;
+    font-size: 2rem;
+    padding: 0 0 3rem 0; 
+}
+/*Entrada blog*/
+
+.imagen-contacto1 img{
+    width: 176.3rem;
+    height: 90rem;
+
+
+}
+
+.margin-contacto{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 0;
+    margin-right: 0;
+   height: 4.5rem;
+}
+
+.padign-entrada-contacto{
+    width:120rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+
+.padign-entrada-contacto blockquote{
+    font-weight: 900;
+    margin: 0;
+    margin-top: 4rem;
+   
+    
+   
+ 
+
+}
+.padign-entrada-contacto p{
+   line-height: 2.5rem;
+   justify-content: center;
+   
+ 
+
+}
+.contacto-contacto{
+    margin:5rem 0;
+}
+/*contacto*/
+label{
+    display:block;
+}
+input{
+    height: 3rem;
+}
+
+input:not([type="submit"],[type="radio"]){
+    background-color: #dbdbdb;
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+    
+}
+select{
+    background-color: #dbdbdb;
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+    
+}
+textarea{
+    background-color: #dbdbdb;
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+
+}
+
+
+
+.contacto-tel {
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+.detalles-texto-form label ,legend{
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+
+}
+
+fieldset{
+    margin-bottom: 3rem;
+}
+.detalle p {
+    font-size: 1.3rem;
+    margin:0;
+    margin-top: 2rem ;
+  
+}
+.detalle label {
+    margin-top: 1rem;
+}
+.sumit{
+    height: 5rem;
+    border: none;
+}
+.sumit:hover{
+    cursor: pointer;
+    color: #b76fd3;
+}
